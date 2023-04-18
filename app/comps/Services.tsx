@@ -12,7 +12,7 @@ export default function Services() {
         <div className='my-20'>
             <p className='font-extrabold text-3xl'>SERVICES</p>
         </div>
-        <div className='grid sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-12'>
+        <div className='grid grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-12'>
             <div className='flex flex-col items-center '>
                 <DiBrackets className='text-7xl text-purple-800 mb-4' />
                 <p className='font-bold'>Development</p>

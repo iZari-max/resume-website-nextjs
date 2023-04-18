@@ -12,10 +12,10 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
   return (
     <div className="w-[100%] flex flex-row">
-      <div className="sm:w-0 lg:w-1/5">
+      <div className="w-1/5">
       <Navigation/>
     </div>
-    <div className=" flex flex-col">
+    <div className=" flex flex-col overflow-hidden">
       <About />
       {/* <hr className=' bg-gray-700 my-6' /> */}
       <Services />

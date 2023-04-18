@@ -9,7 +9,7 @@ export default function Contacts() {
         <div className='my-20'>
             <p className='font-extrabold text-3xl'>Contacts</p>
         </div>
-        <div className='flex flex-row justify-around text-xl'>
+        <div className='flex flex-col md:flex-row lg:flex-row justify-around gap-y-8 text-xl'>
           
           <div className='flex flex-col space-y-4 items-center'>
             <div>

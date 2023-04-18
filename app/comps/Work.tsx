@@ -8,7 +8,7 @@ export default function Work() {
       <div className='my-24'>
         <p className='font-extrabold text-3xl'>WORK</p>
       </div>
-      <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-14 mx-8'>
+      <div className='grid grid-cols-2 lg:grid-cols-3 gap-14 mx-8'>
         <div className='flex flex-col space-y-8 items'>
           <GoGithubAction className='text-5xl text-purple-800' />
           <a href="https://github.com/iZari-max/typescript-cli-calculator" target='_blank'>

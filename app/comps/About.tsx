@@ -13,9 +13,9 @@ export default function About() {
           Shamraiz Masih, a Front-End Developer! from Islamabad, Pakistan. A leaner & teacher of the emerging Web-Tech Next.Js 13. Building Web apps using diverse technologies! 
         </p>
         </div>
-        <div className='flex flex-row space-x-2'>
-            <button className='font-bold border-white border-2 px-8 py-3 purple'><span>PORTFOLIO</span></button>
-            <button className='font-bold border-white border-2 px-8 py-3 white'><span>HIRE ME</span></button>
+        <div className='flex flex-col md:flex-row lg:flex-row gap-y-4 md:gap-x-2 lg:gap-x-2'>
+            <button className='font-bold border-white  px-8 py-3 purple'><span>PORTFOLIO</span></button>
+            <button className='font-bold border-white  px-8 py-3 white'><span>HIRE ME</span></button>
         </div>
         </div>
     </div>
