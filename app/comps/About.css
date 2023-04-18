@@ -1,0 +1,65 @@
+button.purple{
+  display: block;
+  background-color: #6B21A8;
+  position: relative;
+  overflow: hidden;
+  border: solid #6B21A8 4px;
+  color: #fff;
+
+}
+
+button.purple::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ffff;
+    
+    transition: transform 0.5s ease;
+    transform: translateY(0);
+  }
+  
+button.purple:hover::before {
+    background-color: #ffff;
+    transform: translateY(-100%);
+    
+    color: black;
+  }
+button.purple:hover span{
+    position: relative;
+    color: black;
+  }
+
+button.white{
+    background-color: black;
+    color: black;
+    display: block;
+    position: relative;
+    overflow: hidden;
+    border: solid #fff 2px;
+    color: white;
+}
+button.white::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ffff;
+    
+    transition: transform 0.5s ease;
+    transform: translateY(0);
+  }
+button.white:hover::before {
+    background-color: #ffff;
+    transform: translateY(-100%);
+    
+    color: black;
+  }
+button.white:hover span{
+    position: relative;
+    color: black;
+  }
