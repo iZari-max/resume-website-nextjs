@@ -11,7 +11,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <div className="w-[100%] flex flex-row">
+    <div className="w-[100%] flex flex-col lg:flex-row">
       <div className="w-1/5">
       <Navigation/>
     </div>

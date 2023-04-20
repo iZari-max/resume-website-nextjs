@@ -4,7 +4,7 @@ import './About.css'
 export default function About() {
   return (
     <div className='container h-[100vh] flex flex-col justify-center items-center' id='about'>
-        <div className='w-1/2 space-y-8'>
+        <div className='lg:w-1/2 space-y-8'>
         <div className='flex justify-start'>
         <p className='font-extrabold text-7xl '>Hello,</p>
         </div>
